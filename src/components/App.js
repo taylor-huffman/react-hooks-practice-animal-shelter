@@ -47,9 +47,9 @@ function App() {
       })
     })
     .then(r => r.json())
-    // .then(() => fetch(API)
-    // .then(r => r.json())
-    // .then(pets => setPets(pets)))
+    .then(() => fetch(API)
+    .then(r => r.json())
+    .then(pets => setPets(pets)))
   }
 
   // function onAdoptPet() {
